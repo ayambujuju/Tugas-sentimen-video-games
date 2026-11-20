@@ -1,0 +1,13 @@
+{
+  "active_version": "v2",
+  "models": {
+    "v1": {
+      "file": "models/model_v1.pkl",
+      "macro_f1": 0.9262
+    },
+    "v2": {
+      "file": "models/model_v2.pkl",
+      "macro_f1": 0.9345
+    }
+  }
+}
