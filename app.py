@@ -40,3 +40,7 @@ def predict(review: Review):
         f.write(json.dumps({"waktu": time.strftime("%Y-%m-%d %H:%M:%S"),
                             "input": teks[:500], **hasil}) + "\n")
     return hasil
+
+@app.get("/")
+def root():
+    return {"pesan": "API sentimen ulasan Video Games aktif", "docs": "/docs"}
