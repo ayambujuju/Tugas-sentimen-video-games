@@ -44,4 +44,4 @@ cocok untuk deploy di server gratis. class_weight menangani ketimpangan kelas
     curl -X POST localhost:8000/predict -H "Content-Type: application/json" \
       -d '{"title":"Great","text":"Loved this game"}'
 Endpoint: POST /predict, GET /health, GET /model-info.
-Demo online: <ISI LINK RENDER>
+Demo online: https://tugas-sentimen-video-games.onrender.com
